@@ -10,9 +10,9 @@ The analysis focuses on uncovering trends in layoffs by company, industry, count
 
 Skills & Tools
 ----------------------------------------
-  SQL (MySQL Workbench) – Data cleaning, transformations, EDA.<br>
-  Data Cleaning – Handling duplicates, nulls, formatting, schema optimization.<br> 
-  Exploratory Data Analysis – Trends, time-series, funding impact.<br>
+&nbsp;SQL (MySQL Workbench) – Data cleaning, transformations, EDA.<br>
+&nbsp;Data Cleaning – Handling duplicates, nulls, formatting, schema optimization.<br> 
+&nbsp;Exploratory Data Analysis – Trends, time-series, funding impact.<br>
 
 
 Objectives
@@ -43,7 +43,7 @@ Analysis was conducted on a staging table (`layoffs_staging2`) to preserve the o
 - Funding amount (in millions)
 - Funding stage
 
-**Initial Checks:**
+**Initial Checks:**<br>
 &nbsp;Removed duplicate records (using ROW_NUMBER())<br>
 &nbsp;Checked for missing values and inconsistent entries in key fields.<br> 
 &nbsp;Dropped misleading records (e.g., 0% layoffs)<br>
@@ -53,23 +53,22 @@ Analysis was conducted on a staging table (`layoffs_staging2`) to preserve the o
 Exploratory Data Analysis (EDA)
 ----------------------------------------
 **Key Insights:**
-- Dataset Size: 1,995 layoff events (2020–2023)
-- Peak Layoff Month: Jan 2023 – 80,000+ employees laid off
-- Worst Quarters: Q4 2022 & Q1 2023 – 125,000+ layoffs combined
-- Top Company: Amazon (highest cumulative layoffs)
-- Repeat Layoffs: Some firms had up to 6 separate events<br>
-&nbsp;Country Impact: United States dominated, with layoffs several times higher than other countries<br>
-&nbsp;Industry Impact: Customer services, retail, and transportation most affected <br>
-&nbsp;Full Shutdowns: 115 companies laid off 100% of their workforce<br>
-**Funding Effect:**
-- High-funded firms (> $200M): Most layoffs in absolute numbers, but smaller percentage cuts
-- Low-funded firms (< $50M): Cut 40%+ of staff on average
-- Layoffs occurred across early-stage, growth, late-stage, and post-IPO companies
+- Dataset Size: 1,995 layoff events (2020–2023)  
+- Peak Layoff Month: Jan 2023 → 80,000+ employees laid off  
+- Worst Quarters: Q4 2022 & Q1 2023 → 125,000+ layoffs, peak of post-pandemic corrections 
+- Top Company: Amazon (highest cumulative layoffs)  
+- Repeat Layoffs: Some firms had up to 6 separate events  
+- **Country Impact**: United States dominated, with layoffs several times higher than other countries  
+- **Industry Impact**: Customer services, retail, and transportation most affected  
+- **Full Shutdowns**: 115 companies laid off 100% of their workforce  
+- **Funding Effect**: High-funded firms (> $200M) shed the most jobs in absolute numbers but at smaller percentages, while low-funded firms (< $50M) cut 40%+ of staff on average. Layoffs occurred across early-stage, growth, late-stage, and post-IPO companies.  
+
 
 
 Conclusion
 ----------------------------------------
 This exploratory analysis uncovers key patterns in global tech layoffs, including peak periods, most affected industries and countries, repeat layoffs, and funding-stage effects. The insights provide a clear view of workforce reduction trends in the tech sector from 2020 to 2023.
+
 
 
 
