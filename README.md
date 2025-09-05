@@ -56,12 +56,13 @@ Analysis was conducted on a staging table (`layoffs_staging2`) to preserve the o
 - **Industry Impact**: Customer services, retail, and transportation most affected  
 - **Full Shutdowns**: 115 companies laid off 100% of their workforce  
 - **Funding Effect:**  
-  - High-funded firms (> $200M) shed the most jobs in absolute numbers but at smaller percentages while, Low-funded firms (< $50M) cut 40%+ of staff on average.
+  High-funded firms (> $200M) shed the most jobs in absolute numbers but at smaller percentages while, Low-funded firms (< $50M) cut 40%+ of staff on average.  
     Layoffs occurred across early-stage, growth, late-stage, and post-IPO companies  
 
 
 ## Conclusion
 This exploratory analysis uncovers key patterns in global tech layoffs, including peak periods, most affected industries and countries, repeat layoffs, and funding-stage effects. The insights provide a clear view of workforce reduction trends in the tech sector from 2020 to 2023.
+
 
 
 
