@@ -24,7 +24,7 @@ Exploratory Data Analysis (EDA) → Perform queries to explore layoffs by compan
 ----------------------------------------
 SQL Scripts
 ----------------------------------------
-- Data Cleaning SQL Script
+- [Data Cleaning SQL Script](https://github.com/nikhitha-insights/global-tech-layoffs-analysis/blob/main/sql_scripts/01_data_cleaning.sql)
 - Exploratory SQL Queries
 
 ----------------------------------------
@@ -70,6 +70,7 @@ Full Shutdowns: 115 companies laid off 100% of their workforce
 Conclusion
 ----------------------------------------
 This exploratory analysis uncovers key patterns in global tech layoffs, including peak periods, most affected industries and countries, repeat layoffs, and funding-stage effects. The insights provide a clear view of workforce reduction trends in the tech sector from 2020 to 2023.
+
 
 
 
