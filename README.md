@@ -6,12 +6,10 @@ This project explores global tech layoffs from 2020 to 2023 using SQL. The datas
 The analysis focuses on uncovering trends in layoffs by company, industry, country, and funding stage through descriptive and exploratory techniques.
 
 
-
 ## Skills & Tools
 - SQL (MySQL Workbench) → Data cleaning, transformations, EDA  
 - Data Cleaning → Handling duplicates, nulls, formatting, schema optimization  
 - Exploratory Data Analysis → Trends, time-series, funding impact  
-
 
 
 ## Objectives
@@ -19,12 +17,10 @@ The analysis focuses on uncovering trends in layoffs by company, industry, count
 - Data Cleaning → Remove duplicates, standardize text fields, format dates, and handle null values  
 - Exploratory Data Analysis (EDA) → Perform queries to explore layoffs by company, country, industry, and time  
 
----
 
 ## SQL Scripts
 - [Data Cleaning SQL Script](https://github.com/nikhitha-insights/global-tech-layoffs-analysis/blob/main/sql_scripts/01_data_cleaning.sql)  
 - [Exploratory SQL Queries](https://github.com/nikhitha-insights/global-tech-layoffs-analysis/blob/main/sql_scripts/02_eda.sql)  
-
 
 
 ## Data Structure & Initial Checks
@@ -60,13 +56,12 @@ Analysis was conducted on a staging table (`layoffs_staging2`) to preserve the o
 - **Industry Impact**: Customer services, retail, and transportation most affected  
 - **Full Shutdowns**: 115 companies laid off 100% of their workforce  
 - **Funding Effect:**  
-  - High-funded firms (> $200M) shed the most jobs in absolute numbers but at smaller percentages  
-  - Low-funded firms (< $50M) cut 40%+ of staff on average  
-  - Layoffs occurred across early-stage, growth, late-stage, and post-IPO companies  
-
+  - High-funded firms (> $200M) shed the most jobs in absolute numbers but at smaller percentages while, Low-funded firms (< $50M) cut 40%+ of staff on average.
+    Layoffs occurred across early-stage, growth, late-stage, and post-IPO companies  
 
 
 ## Conclusion
 This exploratory analysis uncovers key patterns in global tech layoffs, including peak periods, most affected industries and countries, repeat layoffs, and funding-stage effects. The insights provide a clear view of workforce reduction trends in the tech sector from 2020 to 2023.
+
 
 
