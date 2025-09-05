@@ -10,16 +10,16 @@ The analysis focuses on uncovering trends in layoffs by company, industry, count
 
 Skills & Tools
 ----------------------------------------
- SQL (MySQL Workbench) – Data cleaning, transformations, EDA.
- Data Cleaning – Handling duplicates, nulls, formatting, schema optimization 
- Exploratory Data Analysis – Trends, time-series, funding impact
+  SQL (MySQL Workbench) – Data cleaning, transformations, EDA.<br>
+  Data Cleaning – Handling duplicates, nulls, formatting, schema optimization.<br> 
+  Exploratory Data Analysis – Trends, time-series, funding impact.<br>
 
 
 Objectives
 ----------------------------------------
-Database Setup → Load raw layoffs dataset into MySQL and create staging/final tables<br>  
-Data Cleaning → Remove duplicates, standardize text fields, format dates, and handle null values<br>
-Exploratory Data Analysis (EDA) → Perform queries to explore layoffs by company, country, industry, and time
+&nbsp;Database Setup → Load raw layoffs dataset into MySQL and create staging/final tables.<br>
+&nbsp;Data Cleaning → Remove duplicates, standardize text fields, format dates, and handle null values.<br>
+&nbsp;Exploratory Data Analysis (EDA) → Perform queries to explore layoffs by company, country, industry, and time.
 
 
 SQL Scripts
@@ -44,10 +44,10 @@ Analysis was conducted on a staging table (`layoffs_staging2`) to preserve the o
 - Funding stage
 
 **Initial Checks:**
-Removed duplicate records (using ROW_NUMBER())<br>
-Checked for missing values and inconsistent entries in key fields.<br> 
-Dropped misleading records (e.g., 0% layoffs)<br>
-Converted key fields to proper data types for accurate analysis<br>
+&nbsp;Removed duplicate records (using ROW_NUMBER())<br>
+&nbsp;Checked for missing values and inconsistent entries in key fields.<br> 
+&nbsp;Dropped misleading records (e.g., 0% layoffs)<br>
+&nbsp;Converted key fields to proper data types for accurate analysis<br>
 
 
 Exploratory Data Analysis (EDA)
@@ -58,9 +58,9 @@ Exploratory Data Analysis (EDA)
 - Worst Quarters: Q4 2022 & Q1 2023 – 125,000+ layoffs combined
 - Top Company: Amazon (highest cumulative layoffs)
 - Repeat Layoffs: Some firms had up to 6 separate events<br>
-Country Impact: United States dominated, with layoffs several times higher than other countries<br>
-Industry Impact: Customer services, retail, and transportation most affected <br>
-Full Shutdowns: 115 companies laid off 100% of their workforce<br>
+&nbsp;Country Impact: United States dominated, with layoffs several times higher than other countries<br>
+&nbsp;Industry Impact: Customer services, retail, and transportation most affected <br>
+&nbsp;Full Shutdowns: 115 companies laid off 100% of their workforce<br>
 **Funding Effect:**
 - High-funded firms (> $200M): Most layoffs in absolute numbers, but smaller percentage cuts
 - Low-funded firms (< $50M): Cut 40%+ of staff on average
@@ -70,6 +70,7 @@ Full Shutdowns: 115 companies laid off 100% of their workforce<br>
 Conclusion
 ----------------------------------------
 This exploratory analysis uncovers key patterns in global tech layoffs, including peak periods, most affected industries and countries, repeat layoffs, and funding-stage effects. The insights provide a clear view of workforce reduction trends in the tech sector from 2020 to 2023.
+
 
 
 
