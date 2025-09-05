@@ -1,7 +1,7 @@
 Global Tech Layoffs Analysis (2020–2023)
 ========================================
 
-Project Background
+##Project Background
 ------------------
 This project explores global tech layoffs from 2020 to 2023 using SQL. The dataset spans the COVID-19 pandemic, economic slowdown, and post-pandemic corrections, providing insights into how companies responded during a turbulent period.  
 
@@ -69,6 +69,7 @@ Exploratory Data Analysis (EDA)
 Conclusion
 ----------------------------------------
 This exploratory analysis uncovers key patterns in global tech layoffs, including peak periods, most affected industries and countries, repeat layoffs, and funding-stage effects. The insights provide a clear view of workforce reduction trends in the tech sector from 2020 to 2023.
+
 
 
 
