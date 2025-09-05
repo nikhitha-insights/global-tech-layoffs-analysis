@@ -155,7 +155,7 @@ ALTER TABLE world_layoffs.layoffs_staging2
 DROP COLUMN row_num;
 
 -- schema Optimization
--- good i think for data quality, performance, and future-proofing.
+-- good for data quality, performance, and future-proofing.
  ALTER TABLE world_layoffs.layoffs_staging2
 MODIFY company VARCHAR(50),
 MODIFY location VARCHAR(50),
